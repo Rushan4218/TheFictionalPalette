@@ -1,0 +1,40 @@
+{
+  "featuredItems": [
+    {
+      "id": 1,
+      "name": "Chrono Citrus Salad",
+      "image": "/images/chronoCitrusSalad.jpg",
+      "description": "A time-travelling mix of rare citrus fruits, sprinkled with stardust-infused vinaigrette. A refreshing journey for your taste buds."
+    },
+    {
+      "id": 2,
+      "name": "Dragonfire Grilled Shrimp Skewers",
+      "image": "/images/dragonfiregrilledshrimpskewers.jpg",
+      "description": "Succulent shrimp marinated in a secret blend of dragon spices, grilled to perfection. Served with a side of fire-kissed pineapple salsa."
+    },
+    {
+      "id": 3,
+      "name": "Enchanted Forest Risotto",
+      "image": "/images/enchantedforestrisotto.jpg",
+      "description": "Arborio rice cooked to perfection, mingled with wild mushrooms, truffle essence, and a sprinkle of fairy dust. A taste of the mystical woods on your plate."
+    },
+    {
+      "id": 4,
+      "name": "Galactic Chocolate Explosion Cake",
+      "image": "/images/galacticchocolateexplosioncake.jpg",
+      "description": "A decadent chocolate lava cake with an interstellar twist. Break through the outer layer to release a galaxy of molten chocolate and edible glitter."
+    },
+    {
+      "id": 5,
+      "name": "Whimsical Wonderland Wontons",
+      "image": "/images/whimsicalwonderlandwontons.jpg",
+      "description": "Crispy wontons filled with a magical mix of Wonderland herbs and rare spices. Served with a side of whimsy-infused dipping sauce."
+    },
+    {
+      "id": 6,
+      "name": "Soccerer's Signature Steak",
+      "image": "/images/soccerorssignaturesteak.jpg",
+      "description": "A perfectly char-grilled steak, adorned with a mystical herb-infused sauce, crafted for the most discerning palates."
+    }
+  ]
+}

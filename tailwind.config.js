@@ -4,11 +4,18 @@ export default {
   theme: {
     extend: {
       colors: {
-        light: "rgb(255, 250, 199)"
+        light: "#FEFAE0",
+        darkgreen: "#283618",
+        green: "#606C38",
+        brown: "#BC6C25",
+        lightbrown: "#DDA15E"
       },
       boxShadow: {
         glow: "0 0 10px 1px rgb(255, 255, 195)",
       },
+      backgroundImage: {
+        hrpattern: "url(./src/assets/bgpatternhr.png)"
+      }
     },
   },
   plugins: [],

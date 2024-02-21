@@ -3,9 +3,61 @@
 @tailwind utilities;
 
 body {
-  background: black;
+  background-image: url("./assets/foodbackgrouind.png");
+  @apply bg-light;
+  height: 100vh;
 }
 
 .header-btn {
-  @apply px-4 py-2 bg-yellow-500 text-black font-extrabold rounded-md hover:shadow-glow hover:text-light active:scale-90 duration-150;
+  @apply px-4 py-2 bg-brown text-black font-extrabold rounded-md hover:shadow-glow hover:text-light active:scale-90 duration-150 shadow-md;
+}
+
+
+
+@keyframes slide-down {
+  from {
+    transform: translateY(-5rem);
+  }
+  to {
+    transform: none;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    transform: scale(.6);
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+@keyframes slide-down-pop-in{
+  from {
+    transform: translateY(-4rem) scale(.7);
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+@keyframes move {
+  0%, 100% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(2rem); 
+  }
+}
+
+.bg-pattern {
+  background-image: url("./assets/bgpatternhr.png");
+  background-size: contain;
+  background-repeat: repeat-x;
+}
+
+.text-stroke {
+  -webkit-text-stroke: 2px #FEFAE0;
 }
