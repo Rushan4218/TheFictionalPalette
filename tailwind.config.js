@@ -15,6 +15,9 @@ export default {
       },
       backgroundImage: {
         hrpattern: "url(./src/assets/bgpatternhr.png)"
+      },
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
       }
     },
   },

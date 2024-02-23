@@ -5,7 +5,7 @@ import { FaAngleDown } from "react-icons/fa";
 
 const Hero: React.FC = () => {
   return (
-    <div className="overflow-clip flex items-center justify-center">
+    <div className="flex items-center justify-center">
       <img
         src={heroImg}
         alt="HEROIMG"
@@ -55,7 +55,7 @@ const Hero: React.FC = () => {
           </div>
         </div>
         <h2
-          className="text-white text-[1.5rem] font-bold opacity-0"
+          className="text-white text-[1.5rem] font-bold opacity-0 text-center"
           style={{ animation: "fade-in 1s 2s ease-in-out forwards" }}
         >
           Flavors That Transcend Reality
