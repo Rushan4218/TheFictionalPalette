@@ -1,9 +1,6 @@
 import React from "react";
 import logo from "../assets/logo-white.svg";
 import { FooterForm } from "./FooterForm";
-import { Footer } from "./Footer";
-
-
 
 const FooterEx: React.FC = () => {
 

@@ -26,10 +26,18 @@ const Footer: React.FC = () => {
             <h1 className="text-sm">11AM - 10PM</h1>
           </div>
           <div className="flex items-center gap-2 text-2xl">
-            <FiFacebook />
-            <FiInstagram />
-            <SiWhatsapp />
-            <RiTwitterXLine />
+          <NavLink to="https://www.facebook.com">
+              <FiFacebook />
+            </NavLink>
+            <NavLink to="https://www.instagram.com">
+              <FiInstagram />
+            </NavLink>
+            <NavLink to="https://www.whatsapp.com">
+              <SiWhatsapp />
+            </NavLink>
+            <NavLink to="https://www.twitter.com">
+              <RiTwitterXLine />
+            </NavLink>
           </div>
         </footer>
       ) : (
