@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import { Outlet } from "react-router-dom";
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
@@ -10,8 +10,8 @@ const RootLayout: React.FC = () => {
     <div className="bg-lightbrown bg-opacity-40">
       <Header />
       <Outlet />
+      <FooterEx/>
       <Footer />
-      <FooterEx />
     </div>
   );
 };
